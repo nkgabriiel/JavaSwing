@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConexaoDAO {
-    private static final String URL  = "jdbc:mysql://localhost:3309/papelaria_db";
-    private static final String USER = "root";
-    private static final String PASS = "Meunome123***";
+    private static final String URL  = "";
+    private static final String USER = "";
+    private static final String PASS = "";
 
     public static Connection getConexao() {
         try {
